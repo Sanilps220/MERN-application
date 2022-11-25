@@ -8,7 +8,9 @@
 nav {
   background-color: rgb(5, 47, 102);
 }
-
+.btn-out{
+  cursor:pointer
+}
 .brand-logo {
   font-family: 'Salsa', cursive;
 }
