@@ -13,7 +13,7 @@ function Signup() {
       M.toast({html:"invalid Email" ,classes:"rounded #c62828 red light-3"})
       return 
     }
-    if(email.length > 4){
+    if(password.length < 3){
       M.toast({html: "password min 4 character required",classes:"rounded #c62828 red light-3"})
       return 
     }
